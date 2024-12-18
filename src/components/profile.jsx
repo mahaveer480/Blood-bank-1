@@ -76,7 +76,7 @@ const FetchUserByEmail = () => {
         }
 
         if (formData.number && (!/^\d{11}$/.test(formData.number))) {
-            alert("Please enter a valid 10-digit phone number.");
+            alert("Please enter a valid 11-digit phone number.");
             return;
         }
 
