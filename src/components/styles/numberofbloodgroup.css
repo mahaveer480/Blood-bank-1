@@ -1,0 +1,71 @@
+.blood-group-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .title:hover {
+    color: #3e8e41;
+  }
+  
+  .blood-group-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .blood-group-item {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  .blood-group-item:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 750px) {
+    .blood-group-container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .blood-group-item {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .blood-group-container {
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 1.2rem;
+    }
+  
+    .blood-group-item {
+      font-size: 0.9rem;
+    }
+  }
+  
